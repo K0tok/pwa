@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.logo{
+    height: 50px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.input-div{
+    margin-bottom: 10px;
+}
+.input-div label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.input-div input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 10px;
+}
+.input-div button {
+    display: block;
+    font-size: large;
+    width: 75%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+}
